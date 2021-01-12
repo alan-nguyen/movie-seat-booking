@@ -4,9 +4,9 @@ const count = document.getElementById('count');
 const total = document.getElementById('total');
 const movieSelect = document.getElementById('movie');
 
-let ticketPrice = +movieSelect.value;
-
 populateUI();
+
+let ticketPrice = +movieSelect.value;
 
 // Save selected move index and price
 function setMovieData(movieIndex, moviePrice) {
